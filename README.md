@@ -1,7 +1,7 @@
 # Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation (ICCV 2023)
 
 This is the official repository for **Hierarchical Point-based Active Learning for Semi-supervised Point Cloud
-Semantic Segmentation** [[arXiv](https://arxiv.org/abs/2308.11166)]
+Semantic Segmentation** [[arXiv](https://arxiv.org/abs/2308.11166)][[CVF](https://openaccess.thecvf.com/content/ICCV2023/html/Xu_Hierarchical_Point-based_Active_Learning_for_Semi-supervised_Point_Cloud_Semantic_Segmentation_ICCV_2023_paper.html)]
 
 ![image](imgs/framework.png)
 
@@ -136,10 +136,12 @@ We provide pretrained models for reported results in our paper, you can download
 
 If you find our paper is useful, please cite:
 ```shell
-@article{xu2023hierarchical,
-  title={Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation},
-  author={Xu, Zongyi and Yuan, Bo and Zhao, Shanshan and Zhang, Qianni and Gao, Xinbo},
-  journal={arXiv preprint arXiv:2308.11166},
-  year={2023}
+@InProceedings{Xu_2023_ICCV,
+    author    = {Xu, Zongyi and Yuan, Bo and Zhao, Shanshan and Zhang, Qianni and Gao, Xinbo},
+    title     = {Hierarchical Point-based Active Learning for Semi-supervised Point Cloud Semantic Segmentation},
+    booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+    month     = {October},
+    year      = {2023},
+    pages     = {18098-18108}
 }
 ```
